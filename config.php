@@ -19,4 +19,6 @@ try {
     throw new PDOException("Connection failed");
 }
 
-define('FLASK_SCAN_URL', 'https://bbec-2409-40e1-314a-e9a6-ec0b-462b-6954-82b4.ngrok-free.app');
+define('FLASK_API_URL', 'http://192.168.168.232:5000');
+define('FLASK_SCAN_URL', 'http://192.168.168.232:8080');
+
